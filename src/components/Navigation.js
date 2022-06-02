@@ -1,3 +1,19 @@
+// import React from 'react';
+// import {NavLink} from "react-router-dom";
+
+// function Navigation() {   
+//     return (
+//     <div className=" ul row navigation" id="navigation">
+//           <a href="./About.js">About Me</a>
+//                 <a href=".Profile.js"> Profile</a>
+//                 <a href=".Contact.js">Contact Me</a>
+//                 <a href=".Resume.js">Resume</a>
+//              </div>   
+//   );
+// }
+
+// export default Navigation;
+
 import React from 'react';
 import {NavLink} from "react-router-dom";
 
