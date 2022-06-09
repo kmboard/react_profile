@@ -1,6 +1,7 @@
 import React from "react";
 
 function About() {
+    return (
 <section className="title">
 <h2 className="name"> Kija Board </h2>
 <hr></hr>
@@ -18,6 +19,6 @@ function About() {
         </div>
         </div>
     </section>
-}
+)}
 
 export default About;
