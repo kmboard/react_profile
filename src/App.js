@@ -4,6 +4,7 @@ import Navbar from "./components/Header/Navbar";
 import About from "./components/About"
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <div className="App" style={{backgroundColor: '#1EFFC9', color: 'FFFFFF'}}>

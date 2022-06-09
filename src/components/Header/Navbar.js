@@ -1,5 +1,7 @@
 import { Route } from 'express';
 import { NavLink } from 'react-router-dom';
+
+
 const Navbar = () => {
   return (
       <Route>
@@ -28,4 +30,5 @@ const Navbar = () => {
     </Route>
   );
 };
+
 export default Navbar;
