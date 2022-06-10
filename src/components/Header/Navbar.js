@@ -1,34 +1,12 @@
-import { Route } from 'express';
-import { NavLink } from 'react-router-dom';
+import React from 'react';
 
-
-const Navbar = () => {
-  return (
-      <Route>
-    <nav className='navbar'>
-      <NavLink
-        to='/'
-        className={({ isActive }) => (isActive ? 'link active' : 'link')}
-      >
-        Home
-      </NavLink>
-
-      <NavLink
-        to='/Contact'
-        className={({ isActive }) => (isActive ? 'link active' : 'link')}
-      >
-        Contact
-      </NavLink>
-      <NavLink
-        to='/Profile'
-        className={({ isActive }) => (isActive ? 'link active' : 'link')}
-      >
-        Profile
-      </NavLink>
-
+export default function Navigation({ currentPage, handlePageChange }) {
+    
+    return (
+    <nav>
+        <a href="/About" onClick={() => handlePageChange('About')}>Home</a>
+        <a href="/Portfolio" onClick={() => handlePageChange('Project')}>Portfolio</a>
+        <a href="/Contact" onClick={() => handlePageChange('Contact')}>Contact </a>
     </nav>
-    </Route>
-  );
-};
-
-export default Navbar;
+    )
+}
